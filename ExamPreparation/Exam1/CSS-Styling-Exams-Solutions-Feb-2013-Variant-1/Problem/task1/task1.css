@@ -1,0 +1,118 @@
+body, div, aside, ul, li, a{
+    padding: 0;
+    margin: 0;    
+}
+
+#wrapper{
+    width: 960px;
+    font-size: 16px;
+    font-family: Arial, 'DejaVu Sans', 'Liberation Sans', Freesans, sans-serif;
+}
+
+ul{
+    list-style-type: none;
+}
+
+ul.sidebar{
+    /* IE10 Consumer Preview */ 
+    background-image: -ms-linear-gradient(top, #D29BFF 0%, #8977FF 100%);
+
+    /* Mozilla Firefox */ 
+    background-image: -moz-linear-gradient(top, #D29BFF 0%, #8977FF 100%);
+
+    /* Opera */ 
+    background-image: -o-linear-gradient(top, #D29BFF 0%, #8977FF 100%);
+
+    /* Webkit (Safari/Chrome 10) */ 
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #D29BFF), color-stop(1, #8977FF));
+
+    /* Webkit (Chrome 11+) */ 
+    background-image: -webkit-linear-gradient(top, #D29BFF 0%, #8977FF 100%);
+
+    /* W3C Markup, IE10 Release Preview */ 
+    background-image: linear-gradient(to bottom, #D29BFF 0%, #8977FF 100%);
+    width: 213px;
+    height: 226px;
+    margin-left: 20px;
+    margin-top: 10px;
+    border-radius: 10px;
+    padding-top: 5px;
+}
+
+ul.sidebar li{
+    border-bottom: 1px solid #9D00FF;
+    margin-left: 15px;
+    width: 168px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+}
+
+ul.sidebar li:first-child{
+    padding-bottom: 5px;
+    padding-left: 15px;
+}
+
+ul.sidebar > li:last-child{
+    border-bottom: none;
+}
+
+ul.sidebar li a{
+    font-size: 1.4em;
+}
+
+ul.sidebar li > ul{
+    display: none;
+}
+
+ul > li:last-child:hover{
+    border: 1px solid #9D00FF;
+    border-radius: 5px;
+}
+
+ul li:hover{
+    border: 1px solid #9D00FF;
+    border-radius: 5px;
+}
+
+ul.sidebar li:hover > ul{
+    background-image: url(imgs/arrow.png);
+    background-repeat: no-repeat;
+    background-position: 5px 15px;
+    display: inline-block;
+    position: absolute;
+    background-color: #B5AAFF;
+    width: 235px;
+    height: 136px;
+    margin-top: -10px;
+    margin-left: 20px;
+    border-radius: 10px;
+    padding-top: 5px;
+}
+
+ul.sidebar li:hover > ul li a{
+    padding-left: 2px;
+}
+
+ul.sidebar li:hover > ul li{
+    width: 195px;
+    margin-left: 21px;
+}
+
+ul.sidebar li:hover > ul li:hover{
+    border: 1px solid #9D00FF;
+    border-radius: 5px;
+}
+
+ul.sidebar li:hover > ul li:last-child{
+    border-bottom: none;
+}
+
+ul.sidebar li:hover > ul a{
+    font-size: 1.1em;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #000000;
+}

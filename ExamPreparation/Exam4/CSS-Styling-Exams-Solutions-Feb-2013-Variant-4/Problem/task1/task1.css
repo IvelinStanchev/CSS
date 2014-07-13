@@ -1,0 +1,57 @@
+﻿body{
+    font-family: Constantina, Georgia, 'Nimbus Roman No9 L', serif;
+    font-size: 16px;
+}
+
+body > div{
+    margin-top: 25px;
+    margin-left: 17px;
+    border:1px solid black;
+    border-radius:15px;
+    width: 933px;
+    height: 208px;
+    background: rgba(222,40,255,1);
+    background: rgba(222,40,255,1);
+    background: -moz-linear-gradient(top, rgba(222,40,255,1) 0%, rgba(249,219,255,1) 75%, rgba(249,219,255,1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(222,40,255,1)), color-stop(75%, rgba(249,219,255,1)), color-stop(100%, rgba(249,219,255,1)));
+    background: -webkit-linear-gradient(top, rgba(222,40,255,1) 0%, rgba(249,219,255,1) 75%, rgba(249,219,255,1) 100%);
+    background: -o-linear-gradient(top, rgba(222,40,255,1) 0%, rgba(249,219,255,1) 75%, rgba(249,219,255,1) 100%);
+    background: -ms-linear-gradient(top, rgba(222,40,255,1) 0%, rgba(249,219,255,1) 75%, rgba(249,219,255,1) 100%);
+    background: linear-gradient(to bottom, rgba(222,40,255,1) 0%, rgba(249,219,255,1) 75%, rgba(249,219,255,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#df28ff', endColorstr='#f9dbff', GradientType=0 );
+}
+
+.left-arrow{
+    float:left;
+    margin-top: 9px;
+}
+
+.right-arrow{
+    float:right;
+    margin-top: 9px;
+}
+
+.postedby{
+    border-top:1px solid black;
+    border-bottom:1px solid black;
+    width: 381px;
+    margin-left: 50px;
+    margin-top: -20px;
+    margin-bottom: 21px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+}
+
+h1{
+    margin-left: 35px;
+    margin-top:15px;
+    width: 800px;
+    font-size: 1.8em;
+    padding-bottom: 6px;
+}
+
+.info{
+    width:879px;
+    margin-left:35px;
+}

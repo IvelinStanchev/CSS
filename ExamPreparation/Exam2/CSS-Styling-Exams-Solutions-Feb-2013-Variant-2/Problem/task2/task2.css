@@ -1,0 +1,226 @@
+﻿html, body, div, ul, li, a, img, span{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Courier New', Courier, 'Nimbus Mono L', monospace;
+    font-size: 16px;
+}
+
+body div#wrapper{
+    width: 960px;
+}
+
+body div#wrapper ul.notification-list > li{
+    display: inline-block;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+    padding-left: 15px;
+    padding-top: 5px;
+    padding-right: 15px;
+    padding-bottom: 4px;
+}
+
+body div#wrapper ul.notification-list li > a{
+    text-decoration: none;
+    color: #777777;
+    font-size: 1.2em;
+}
+
+body div#wrapper ul.notification-list li:last-child{
+    border-right: none;
+}
+
+body div#wrapper ul.notification-list li div.content{
+    position: absolute;
+    display: none;
+}
+
+body div#wrapper ul.notification-list li div.content ul li{
+    display: block;
+}
+
+body div#wrapper ul.notification-list li:hover div.content{
+    display: block;
+}
+
+body div#wrapper ul.notification-list li:hover{
+    border-bottom: none;
+}
+
+body div#wrapper ul.notification-list li:nth-child(1) div.content ul{
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+    margin-left: -16px;
+    margin-top: 5px;
+    width: 470px;
+    /* IE10 Consumer Preview */ 
+    background-image: -ms-linear-gradient(top, #DDDDDD 0%, #CCCCCC 100%);
+
+    /* Mozilla Firefox */ 
+    background-image: -moz-linear-gradient(top, #DDDDDD 0%, #CCCCCC 100%);
+
+    /* Opera */ 
+    background-image: -o-linear-gradient(top, #DDDDDD 0%, #CCCCCC 100%);
+
+    /* Webkit (Safari/Chrome 10) */ 
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #DDDDDD), color-stop(1, #CCCCCC));
+
+    /* Webkit (Chrome 11+) */ 
+    background-image: -webkit-linear-gradient(top, #DDDDDD 0%, #CCCCCC 100%);
+
+    /* W3C Markup, IE10 Release Preview */ 
+    background-image: linear-gradient(to bottom, #DDDDDD 0%, #CCCCCC 100%);
+}
+
+body div#wrapper ul.notification-list li:nth-child(2) div.content ul{
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+    margin-left: -161px;
+    margin-top: 5px;
+    width: 470px;
+    /* IE10 Consumer Preview */ 
+    background-image: -ms-linear-gradient(top, #DDDDDD 0%, #CCCCCC 100%);
+
+    /* Mozilla Firefox */ 
+    background-image: -moz-linear-gradient(top, #DDDDDD 0%, #CCCCCC 100%);
+
+    /* Opera */ 
+    background-image: -o-linear-gradient(top, #DDDDDD 0%, #CCCCCC 100%);
+
+    /* Webkit (Safari/Chrome 10) */ 
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #DDDDDD), color-stop(1, #CCCCCC));
+
+    /* Webkit (Chrome 11+) */ 
+    background-image: -webkit-linear-gradient(top, #DDDDDD 0%, #CCCCCC 100%);
+
+    /* W3C Markup, IE10 Release Preview */ 
+    background-image: linear-gradient(to bottom, #DDDDDD 0%, #CCCCCC 100%);
+}
+
+body div#wrapper ul.notification-list li:nth-child(3) div.content ul{
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+    margin-left: -361px;
+    margin-top: 5px;
+    width: 470px;
+    /* IE10 Consumer Preview */ 
+    background-image: -ms-linear-gradient(top, #DDDDDD 0%, #CCCCCC 100%);
+
+    /* Mozilla Firefox */ 
+    background-image: -moz-linear-gradient(top, #DDDDDD 0%, #CCCCCC 100%);
+
+    /* Opera */ 
+    background-image: -o-linear-gradient(top, #DDDDDD 0%, #CCCCCC 100%);
+
+    /* Webkit (Safari/Chrome 10) */ 
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #DDDDDD), color-stop(1, #CCCCCC));
+
+    /* Webkit (Chrome 11+) */ 
+    background-image: -webkit-linear-gradient(top, #DDDDDD 0%, #CCCCCC 100%);
+
+    /* W3C Markup, IE10 Release Preview */ 
+    background-image: linear-gradient(to bottom, #DDDDDD 0%, #CCCCCC 100%);
+}
+
+body div#wrapper ul.notification-list{
+    border: 1px solid black;
+    border-bottom: none;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    margin-left: 25px;
+    margin-top: 25px;
+    width: 470px;
+    background: rgb(171, 171, 171);
+    background: -moz-linear-gradient(90deg, rgb(171, 171, 171) 0%, rgb(221, 221, 221) 80%);
+    background: -webkit-linear-gradient(90deg, rgb(171, 171, 171) 0%, rgb(221, 221, 221) 80%);
+    background: -o-linear-gradient(90deg, rgb(171, 171, 171) 0%, rgb(221, 221, 221) 80%);
+    background: -ms-linear-gradient(90deg, rgb(171, 171, 171) 0%, rgb(221, 221, 221) 80%);
+    background: linear-gradient(180deg, rgb(171, 171, 171) 0%, rgb(221, 221, 221) 80%);
+}
+
+body div#wrapper ul.notification-list li > a img{
+    height: 15px;
+    width: 15px;
+}
+
+body div#wrapper ul.notification-list li:nth-child(1) div.content ul li a{
+    font-size: 1em;
+}
+
+body div#wrapper ul.notification-list li:nth-child(1) div.content ul li{
+    margin-bottom: 10px;
+}
+
+body div#wrapper ul.notification-list li:nth-child(1) div.content ul li:first-child{
+    padding-top: 5px;
+}
+
+body div#wrapper ul.notification-list li:nth-child(3) div.content ul{
+    padding-left: 15px;
+    width: 455px;
+}
+
+body div#wrapper ul.notification-list li:nth-child(1) div.content ul{
+    padding-left: 15px;
+    width: 455px;
+}
+
+body div#wrapper ul.notification-list li:nth-child(1) div.content ul li img{
+    margin-right: 5px;
+}
+
+body div#wrapper ul.notification-list li:nth-child(2) div.content ul li a{
+    font-size: 1em;
+}
+
+body div#wrapper ul.notification-list li:nth-child(2) div.content ul li{
+    margin-bottom: 10px;
+    margin-left: 15px;
+}
+
+body div#wrapper ul.notification-list li:nth-child(1) div.content ul li:last-child{
+    margin-bottom: 5px;
+}
+
+body div#wrapper ul.notification-list li:nth-child(2) div.content ul li:last-child{
+    margin-bottom: 5px;
+}
+
+body div#wrapper ul.notification-list li:nth-child(3) div.content ul li:last-child{
+    margin-bottom: 5px;
+}
+
+body div#wrapper ul.notification-list li:nth-child(2) div.content ul li:first-child{
+    padding-top: 5px;
+}
+
+body div#wrapper ul.notification-list li:nth-child(3) div.content ul li a{
+    font-size: 1em;
+}
+
+body div#wrapper ul.notification-list li:nth-child(3) div.content ul li{
+    margin-bottom: 10px;
+}
+
+body div#wrapper ul.notification-list li:nth-child(3) div.content ul li:first-child{
+    padding-top: 5px;
+}
+
+body div#wrapper ul.notification-list li:nth-child(3) div.content ul li img{
+    margin-right: 5px;
+}
+
+body div#wrapper ul.notification-list li div.content ul li a:hover{
+    text-decoration: underline;
+}
+
+
+
+
+
+

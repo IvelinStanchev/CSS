@@ -1,0 +1,120 @@
+div#wrapper > div{
+	width: 140px;
+	height: 250px;	
+	border-top: 2px solid #D3D7DA;
+	border-bottom: 2px solid #D3D7DA;
+    border-left: 2px solid #D3D7DA;
+	float: left;
+	margin: 0px;
+	padding: 10px 4px 0px 4px;
+}
+
+div#wrapper > div:last-child{
+    border-right: 2px solid #D3D7DA;
+}
+
+div#wrapper > div:nth-child(2n){
+    height: 270px;
+    border-right: 2px solid #D3D7DA;
+}
+
+#wrapper > div:nth-child(1){
+    background: url('imgs/install.png') no-repeat;
+    background-position: 4px 14px;
+}
+
+#wrapper > div:nth-child(2){
+  background: #ffffff;
+  background: url('imgs/tuneUp.png') no-repeat 4px 14px, -moz-linear-gradient(top, #ffffff 40%, #f1f2f3 80%);
+  background: url('imgs/tuneUp.png') no-repeat 4px 14px, -webkit-linear-gradient(top, #ffffff 40%, #f1f2f3 80%);
+  background: url('imgs/tuneUp.png') no-repeat 4px 14px, -o-linear-gradient(top, #ffffff 40%, #f1f2f3 80%);
+  background: url('imgs/tuneUp.png') no-repeat 4px 14px, -ms-linear-gradient(top, #ffffff 40%, #f1f2f3 80%);
+  background: url('imgs/tuneUp.png') no-repeat 4px 14px, linear-gradient(to bottom, #ffffff 40%, #f1f2f3 80%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#05334b', endColorstr='#73ccf9', GradientType=0);
+}
+
+#wrapper > div:nth-child(3){
+    background: url('imgs/manage.png') no-repeat;
+    background-position: 4px 14px;
+    border-left: none;
+}
+
+#wrapper > div:nth-child(4){
+  background: #ffffff;
+  background: url('imgs/openSource.png') no-repeat 4px 14px, -moz-linear-gradient(top, #ffffff 40%, #f1f2f3 80%);
+  background: url('imgs/openSource.png') no-repeat 4px 14px, -webkit-linear-gradient(top, #ffffff 40%, #f1f2f3 80%);
+  background: url('imgs/openSource.png') no-repeat 4px 14px, -o-linear-gradient(top, #ffffff 40%, #f1f2f3 80%);
+  background: url('imgs/openSource.png') no-repeat 4px 14px, -ms-linear-gradient(top, #ffffff 40%, #f1f2f3 80%);
+  background: url('imgs/openSource.png') no-repeat 4px 14px, linear-gradient(to bottom, #ffffff 40%, #f1f2f3 80%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#05334b', endColorstr='#73ccf9', GradientType=0);
+}
+
+#wrapper > div:nth-child(5){
+    background: url('imgs/twitter.png') no-repeat;
+    background-position: 4px 14px;
+    border-left: none;
+}
+
+#wrapper > div:nth-child(6){
+  background: #ffffff;
+  background: url('imgs/about.png') no-repeat 4px 14px, -moz-linear-gradient(top, #ffffff 40%, #f1f2f3 80%);
+  background: url('imgs/about.png') no-repeat 4px 14px, -webkit-linear-gradient(top, #ffffff 40%, #f1f2f3 80%);
+  background: url('imgs/about.png') no-repeat 4px 14px, -o-linear-gradient(top, #ffffff 40%, #f1f2f3 80%);
+  background: url('imgs/about.png') no-repeat 4px 14px, -ms-linear-gradient(top, #ffffff 40%, #f1f2f3 80%);
+  background: url('imgs/about.png') no-repeat 4px 14px, linear-gradient(to bottom, #ffffff 40%, #f1f2f3 80%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#05334b', endColorstr='#73ccf9', GradientType=0);
+}
+
+hgroup{
+    margin-left: 40px;
+}
+
+h1, h2, h3, body, div{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, 'DejaVu Sans', 'Liberation Sans', Freesans, sans-serif;
+    font-size: 16px;
+}
+
+
+div#wrapper{
+    margin-top: 20px;
+    margin-left: 20px;
+
+}
+
+#wrapper > div:nth-child(4) hgroup{
+    margin-top: 20px;
+}
+
+#wrapper > div:nth-child(5) hgroup{
+    margin-top: 20px;
+}
+
+#wrapper > div:nth-child(6) hgroup{
+    margin-top: 20px;
+}
+
+.yellowBox{
+    border: 1px solid #FFFF00;
+    background-color: #FFFFDD;
+}
+
+.yellowBox a{
+    background-color: #FFFFDD;
+    display: inline;
+}
+
+a{
+    text-decoration: none;
+    color: #CA2D2F;
+    display: block;
+}
+
+span{
+    text-transform: uppercase;
+}
+
+p{
+    margin-bottom: 5px;
+}

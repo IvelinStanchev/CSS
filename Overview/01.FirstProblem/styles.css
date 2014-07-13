@@ -1,0 +1,33 @@
+.gray {
+	color: #d3d3d3;
+}
+
+.point {
+	vertical-align: middle;           
+    font-size: 57px;
+    line-height: 1px;             
+    color: #8FBC8F;
+}
+
+.firstColumn {
+	font-style: italic;
+	color: white;
+}
+
+table {
+	text-align: left;
+	width: 350px;
+	background-color: #999;
+}
+
+.yellow {
+	color: #FAFAD2;
+}
+
+.red {
+	color: red;
+}
+
+.orange {
+	color: orange;
+}

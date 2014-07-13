@@ -1,0 +1,54 @@
+body {
+	background-color: #a9a9a9;
+	font-size: 20px;
+}
+
+header > h1 {
+	font-size: 40px;
+}
+
+body > header {
+	text-align: center;
+	font-weight: bold;
+}
+
+body > footer {
+	text-align: center;
+}
+
+h1 {
+	color: #FAFAD2;
+	font-weight: bold;
+}
+
+a {
+	text-decoration: none;
+	color: #000
+}
+
+ul {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+li {
+    list-style: none;
+}
+
+li:last-child a
+{
+    text-decoration: underline;
+}
+
+li a
+{
+    color: #ffffff;
+}
+
+.current {
+	background-color: #d3d3d3;
+}
+
+footer p {
+    font-size: 14px;
+}

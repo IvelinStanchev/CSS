@@ -1,0 +1,15 @@
+tr:nth-child(odd) {
+	background: #E3E1DD;
+}
+
+tr:first-child {
+	background-color: #4DD83D;
+}
+
+table, th, td  {
+	border: 1px solid #ACA49D;
+    border-spacing: 0px;
+    border-collapse: separate;
+}
+
+

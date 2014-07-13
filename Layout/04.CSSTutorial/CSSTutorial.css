@@ -1,0 +1,155 @@
+.icon-home 
+{ 
+    background: url(icon-home.png);
+    width: 50px;
+    height: 50px;
+}
+
+div nav h1
+{
+    font-size: 13px;
+}
+
+div nav img
+{
+    margin-top: 10px;
+}
+
+h1 
+{
+    margin-top: -20px;
+    padding-left: 20px;
+}
+
+div
+{
+    height: 815px;
+    width: 1007px;
+    background: #F1F1F1;
+    border: 1px solid black;
+    font-family: Verdana;
+}
+
+div nav ul
+{
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+div nav ul a
+{
+    text-decoration: none;
+    color: Black;
+}
+
+.aRed 
+{
+    color: #820000;
+    font-weight: bold;
+}
+
+div article div
+{
+    margin-top: -825px;
+    margin-left: 200px;
+    width: 600px;
+    height: 780px;
+    background-color: White;
+    padding: 5px;
+}
+
+div article div section a
+{
+    color: #CC0000;
+}
+
+div article div h1
+{
+    margin-top: 15px;
+    font-size: 18px;
+    font-weight: 500;
+    padding-left: 0px;
+}
+
+div article div section h2
+{
+    background: #7B7B7D;
+    color: White;
+    font-size: 15px;
+    padding-left: 5px;
+}
+
+hr
+{
+    height: 3px;
+    background-color: #8E8E8F;
+}
+
+.left
+{
+    float: left;
+    margin-right: 10px;
+}
+
+.right
+{
+    padding-left: 105px;
+}
+
+div aside
+{
+    margin-left: 815px;
+    text-align: center;
+    margin-top: -792px;
+}
+
+div aside a
+{
+    color: #CC0000;
+}
+
+div aside section ul
+{
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+.box
+{
+    margin-bottom: 2px;
+    padding: 3px;
+    border: 1px solid #8A8A8A;
+    background: #fff;
+    width: 180px;
+}
+
+.top
+{
+    text-align:center;
+}
+
+div aside h2
+{
+    font-size: 15px;
+    color: White;
+    background: #7B7B7D;
+    margin: -3px;
+    margin-bottom: 3px;
+}
+
+.secondBox
+{
+    margin-bottom: -14px;
+    margin-top: 0px;
+    padding: 3px;
+    border: 1px solid #8A8A8A;
+    background: #fff;
+    width: 180px;
+}
+
+div article div nav ul li input
+{
+    margin-right: 12px;
+    margin-top: 5px;
+    margin-left: -1px;
+}

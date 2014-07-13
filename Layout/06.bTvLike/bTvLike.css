@@ -1,0 +1,159 @@
+div
+{
+    height: 405px;
+    width: 700px;
+    border: 2px solid #337D8F;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    background: #1E3741;
+    font-family: Arial, Sans-Serif;
+}
+
+nav ul
+{
+    padding: 0px;
+    padding-left: 5px;
+    list-style-type: none;
+}
+
+nav ul li
+{
+    padding: 10px;
+    margin-right: -2px;
+    background: #4B5F67;
+    display: inline-block;
+}
+
+nav ul li a
+{
+    font-size: 0.9em;
+    color: #8AA6A9;
+    text-decoration: none;
+}
+
+nav ul li:hover a
+{
+    text-decoration: underline;
+}
+
+nav ul li:active
+{
+    text-decoration: none;
+    background: #1E3741;
+}
+
+nav ul li:active a
+{
+    color: White;
+}
+
+aside ul
+{
+    padding: 0px;
+    list-style-type: none;
+}
+
+aside ul li
+{
+    color: #8AA6A9;
+    width: 250px;
+    border-bottom: 1px solid #314851;
+    padding: 10px;
+}
+
+aside ul li a
+{
+    color: #8AA6A9;
+    text-decoration: none;
+}
+
+aside ul li:last-child
+{
+    border-bottom: none;
+}
+
+aside ul li:hover
+{
+    background: #00968C;
+}
+
+aside ul li:hover a
+{
+    color: White;
+}
+
+.defaultImage
+{
+    position: absolute;
+    margin-left: 33px;
+    margin-top: -11px;
+}
+
+.defaultImage2
+{
+    position: absolute;
+    margin-left: 222px;
+    margin-top: -89px;
+}
+
+.defaultImage3
+{
+    position: absolute;
+    margin-left: 116px;
+    margin-top: -166px;
+}
+
+.defaultImage4
+{
+    position: absolute;
+    margin-left: 68px;
+    margin-top: -225px;
+}
+
+.defaultImage5
+{
+    position: absolute;
+    margin-left: 73px;
+    margin-top: -303px;
+}
+
+aside ul li:hover a img
+{
+    visibility: visible;
+}
+
+
+/*Animation*/
+.tab-item img 
+{
+    z-index: -1;
+    opacity: 0;
+}
+
+.tab-item img
+{
+    -webkit-transition: opacity 500ms ease-out;
+        -moz-transition: opacity 500ms ease-out;
+            -o-transition: opacity 500ms ease-out;
+            transition: opacity 500ms ease-out;
+}
+
+.tab-item a
+{
+    display: block;
+    width: 250px;
+}
+        
+.tab-item:hover img,
+.tabs:not(:hover) .tab:first-child .tab-content
+{
+    z-index: 1;
+    opacity: 1;
+}
+
+.selected
+{
+	background-color: #1E3741;
+}
+
